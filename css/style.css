@@ -1,3 +1,7 @@
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
 .align>div{
     display: inline-block;
 }
@@ -13,7 +17,7 @@ footer{
 header{
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     background: rgba(255,110,74,0.5);;
 }
 .logo{
@@ -32,14 +36,64 @@ header{
 .form-inline.my-lg-0{
     margin-right: 15px;
 }
-.navbar-card{
-    display: inline-block;
-    padding: 15px;
+.cart-and-sign-up>li{
+    border: 1px solid #4f0c1b;
+    border-radius:8px;
+    padding: 10px;
     color: #4f0c1b;
+    margin-right: 10px;
 }
-.navbar-sign-up{
-    display: inline-block;
-    padding: 15px;
+.cart-and-sign-up>li>a{
     color: #4f0c1b;
+    padding: 10px;
 }
+.cart-and-sign-up>li:hover{
+    background: #4f0c1b;
+}
+.cart-and-sign-up>li>a:hover{
+    color: beige;
+    text-decoration: none;
+}
+.nav-link{
+    color: black;
+    font-weight: bolder;
+}
+.carousel{
+    width: 750px;
+    height: 535px;
+    margin: 0 auto;
+}
+.card{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.card img{
+    width: 247px;
+    height: 400px;}
+.carousel-button{
+    display: inline-block;
+    position: absolute;
+    padding: 15px;
+    bottom: 105px;
+    left: 80px;
+    color: bisque;
+    background: rgba(80, 12, 27, 0.91);
+    border-radius: 5px;}
+.carousel-text{
+    position: absolute;
+    padding: 15px;
+    top: 70px;
+    left: 80px;
+    background: rgba(80, 12, 27, 0.91);
+    border-radius: 5px;
+    color: bisque;
+    font-size: 25px;
+}
+.carousel-button:hover{
+    background: rgba(112, 0, 28, 0.92);
+    color: bisque;
 }
