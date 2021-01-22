@@ -1,0 +1,45 @@
+.align>div{
+    display: inline-block;
+}
+.footer-menu{
+    margin-right: 740px;
+}
+footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    background: rgba(255,110,74,0.5);
+}
+header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    background: rgba(255,110,74,0.5);;
+}
+.logo{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn.btn-outline-success{
+    border-color: #4f0c1b;
+    color: #4f0c1b;
+}
+.btn.btn-outline-success:hover{
+    background: #4f0c1b;
+    color: bisque;
+}
+.form-inline.my-lg-0{
+    margin-right: 15px;
+}
+.navbar-card{
+    display: inline-block;
+    padding: 15px;
+    color: #4f0c1b;
+}
+.navbar-sign-up{
+    display: inline-block;
+    padding: 15px;
+    color: #4f0c1b;
+}
+}
