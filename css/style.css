@@ -117,3 +117,32 @@ header{
     color: bisque;
     border-color: firebrick;
 }
+h1{
+    color: #4f0c1b;
+}
+.product-list>div{
+    display: inline-block;
+    color: #4f0c1b;
+}
+.product-price{
+    font-size: 25px;
+    margin-left: 160px;
+}
+.product-list>img{
+    width: 155px;
+    height: 210px;
+    margin-right: 35px;
+}.cart-list>li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+     list-style-type: none;
+ }
+ .btn-checkout{
+     background: #4f0c1b;
+     color: bisque;
+     font-size: 20px;
+     margin-left: 60px;
+ }
+.btn-checkout:hover{
+    color: bisque;
+}
