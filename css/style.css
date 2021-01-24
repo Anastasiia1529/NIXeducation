@@ -97,3 +97,23 @@ header{
     background: rgba(112, 0, 28, 0.92);
     color: bisque;
 }
+.log-in-form{
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.form-group>label{
+    font-weight: bolder;
+    color: #4f0c1b;
+}
+.register-form-align{
+    margin-top: 35px;
+    text-align: center;
+    color: #4f0c1b;
+}
+.btn.btn-primary{
+    background: #4f0c1b;
+    color: bisque;
+    border-color: firebrick;
+}
