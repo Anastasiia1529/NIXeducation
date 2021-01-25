@@ -146,3 +146,21 @@ h1{
 .btn-checkout:hover{
     color: bisque;
 }
+.product-description{
+    color: #4f0c1b;
+    border: 1px solid darkgray;
+    padding: 15px;
+    border-radius: 15px;
+}
+.product-information{
+    display: inline-block;
+    width: 600px;
+    margin-left: 35px;
+}
+.product-description-price{
+    display: inline-block;
+    font-size: 40px;
+    vertical-align: top;
+    margin-top: 40px;
+
+}
